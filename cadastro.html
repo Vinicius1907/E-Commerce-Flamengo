@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="topoleft">
+                <div>
+                    <img class="logo" src="img/Outros/escudo.png" width="60px" height="65px">
+                </div>
+            </div>
+
+            <div class="toporight">
+
+                <input class="search" type="search" placeholder="Pesquisa">
+
+                <div class="usuario">
+                    <a href="cadastro.html"><img src="img/Outros/usuario.png" width="40px" height="40px">
+                    <p>Ainda não é cadastrado? Registre-se</p></a>
+                </div>
+
+                <div class="carrinho">
+                    <a href="cadastro.html"><img src="img/Outros/carrinho.png" width="40px" height="40px">
+                    <p>Cadastrado?</p></a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <a href="index.html"><button type="button" value="Masculino">Mais Vendidos</button></a>
+            <a href="masculino.html"><button type="button" value="Masculino">Masculino</button></a>
+            <a href="feminino.html"><button type="button" value="Masculino">Feminino</button></a>
+            <a href="infantis.html"><button type="button" value="Masculino">Infantis</button></a>
+            <a href="acessorios.html"><button type="button" value="Masculino">Acessórios</button></a>
+        </nav>
+        <section>
+            <form class="formleft">
+                <label class="pai email">
+                    <span>Email</span>
+                    <input type="email"  name="email" id="name" placeholder="Email" required>
+                </label>
+
+                <label class="pai email2">
+                    <span>Repetir Email</span>
+                    <input type="email"  name="email" id="name" placeholder="Email" required>
+                </label>
+            </form>
+
+            <form class="formright">
+                <label class="pai senha">
+                    <span>Senha</span>
+                    <input type="password"  name="senha" id="name" placeholder="Senha" required>
+                </label>
+
+                <label class="pai senha2">
+                    <span>Repetir Senha</span>
+                    <input type="password"  name="senha2" id="name" placeholder="Repetir Senha" required>
+                </label>
+
+            </form>
+
+
+
+        </section>
+
+
+
+        <section>
+
+                <form class="formleft">
+                        <h1>Dados Cadastrais</h1>
+                        <label class="pai nome">
+                            <span>Nome</span>
+                            <input type="text"  name="nome" id="name" placeholder="Insira seu Nome" required>
+                        </label>
+
+                        <label class="pai sobrenome">
+                            <span>Sobrenome</span>
+                            <input type="text"  name="sobrenome" id="subname" placeholder="Insira seu Sobrenome" required>
+                        </label>
+
+                        <label class="pai sexo">
+                                <span>Sexo</span>
+                                <input type="radio" class="sexo" name="sexo" id="sexo" required> Masculino
+                                <input type="radio" class="sexo" name="sexo" id="sexo" required> Feminino
+                        </label>
+
+                        <label class="pai cpf">
+                                <span>CPF</span>
+                                <input type="number"  name="cpf" id="cpf" placeholder="Insira seu CPF" required>
+                        </label>
+
+                        <label class="pai telefone">
+                                <span>Telefone</span>
+                                <input type="number"  name="telefone" id="telefone" placeholder="Insira seu Telefone" required>
+                        </label>
+
+                        <label class="pai celular">
+                                <span>Celular</span>
+                                <input type="number"  name="celular" id="celular" placeholder="Insira seu Celular" required>
+                        </label>
+
+                        <label class="pai nascimento">
+                                <span>Data de Nascimento</span>
+                                <input type="date"  name="birthdate" id="birthdate" placeholder="Data de Nascimento" required>
+                        </label>
+                    </form>
+
+                    <form class="formright">
+                        <h1>Endereço de Entrega</h1>
+
+                        <label class="pai cep">
+                            <span>CEP</span>
+                            <input type="number"  name="cep" id="cep" placeholder="Insira seu CEP" required>
+                        </label>
+
+                        <label class="pai rua">
+                            <span>Rua</span>
+                            <input type="text"  name="rua" id="rua" placeholder="Insira seu endereço" required>
+                        </label>
+
+                        <label class="pai numero">
+                                <span>Senha</span>
+                                <input type="number"  name="numero" id="numero" placeholder="Numero da Rua" required>
+                        </label>
+
+                        <label class="pai complemento">
+                                <span>Complemento</span>
+                                <input type="text"  name="Complemento" id="Complemento" placeholder="Insira o Complemento" required>
+                        </label>
+
+                        <label class="pai bairro">
+                                <span>bairro</span>
+                                <input type="text"  name="bairro" id="bairro" placeholder="Insira seu Bairro" required>
+                        </label>
+
+                        <label class="pai cidade">
+                                <span>Cidade</span>
+                                <input type="text"  name="city" id="city" placeholder="Insira sua Cidade" required>
+                        </label>
+
+                        <label class="pai estado">
+                                <span>Estado</span>
+                                <input type="text"  name="state" id="state" placeholder="" required>
+                        </label>
+
+                    </form>
+        </section>
+
+        <footer>
+
+                <div class="footerleft">
+                    <img src="img/Outros/escudofooter.png" alt="" width="100px" height="100px">
+                    <p>Praesent feugiat vitae diam venenatis rhoncus. Aliquam erat volutpat. Nulla eget nibh elit. Suspendisse tristique dui justo, non condimentum est tincidunt vitae. Aenean sit amet cursus metus. Curabitur nec vehicula felis. Cras quis molestie ante. Proin vitae odio elementum, efficitur erat et, vulputate ex. Proin est turpis, efficitur non dui sed, porta dapibus lorem. Nullam dapibus arcu sed arcu varius tincidunt. </p>
+                </div>
+
+                <div class="footerright">
+                    <div>
+                        <img src="img/Outros/facebook.png">
+                        <p>@Flamengo1907</p>
+                    </div>
+
+                    <div>
+                        <img src="img/Outros/instagram.png">
+                        <p>@Flamengo1907</p>
+                    </div>
+
+                    <div>
+                        <img src="img/Outros/youtube.png">
+                        <p>@Flamengo1907</p>
+                    </div>
+
+                    <div>
+                        <img src="img/Outros/twitter.png">
+                        <p>@Flamengo1907</p>
+                    </div>
+                </div>
+
+
+        </footer>
+    </body>
+</html>
